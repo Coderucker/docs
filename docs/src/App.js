@@ -4,15 +4,23 @@ import "./App.css";
 // COMPONENTS
 import Button from "./components/Button/index";
 import Header from "./components/Header/index";
+import NavLink from "./components/NavLink/index";
+import Nav from "./components/Nav/index";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <nav>
-          <img height={100} src={logo} alt="Logo for App" />
-        </nav>
-        <Header>Documentation For AmberBuild</Header>
+        <Nav style={{
+          position: "fixed",
+          top: 0,
+          padding: 10
+        }}>
+          <img height={50} src={logo} alt="Logo for App" />
+          <Header text="AmberBuild"/>
+        </Nav>
+        <Header>
+          Automatically Build and Execute your Tasks
+        </Header>
         <div
           style={{
             display: "flex",
@@ -21,16 +29,14 @@ function App() {
           }}
         >
           <Button text="Read the Docs" />
-          <a
-            className="App-link"
+          <NavLink
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Try AmberBuild
-          </a>
+            Learn React
+          </NavLink>
         </div>
-      </header>
     </div>
   );
 }
