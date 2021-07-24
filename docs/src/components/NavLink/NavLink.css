@@ -1,11 +1,21 @@
 :root {
+    --navlink-height: inherit;
     --navlink-color: #166edc;
+    --navlink-padding: 2px;
+    --navlink-font-size: calc(10px + 1.5vmin);
+    --navlink-border-radius: 10px;
     --navlink-bg-hover: #c4c4c4aa;
+    --navlink-transition: 0.15s;
 }
 
 a.navlink__docs {
+    height: var(--navlink-height);
     color: var(--navlink-color);
+    padding: var(--navlink-padding);
+    font-size: var(--navlink-font-size);
+    border-radius: var(--navlink-border-radius);
     text-decoration: none;
+    transition: var(--navlink-transition);
 }
 
 a.navlink__docs:hover {
