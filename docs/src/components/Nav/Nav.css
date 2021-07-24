@@ -1,0 +1,16 @@
+:root {
+    --navbar-height: 80px;
+    --navbar-width: 100vw;
+    --navbar-display: flex;
+    --navbar-align: center;
+    --navbar-justify: space-around;
+}
+
+nav.navbar__docs {
+    height: var(--navbar-height);
+    width: var(--navbar-width);
+    align-items: var(--navbar-align);
+    justify-content: var(--navbar-justify);
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(24px);
+}
