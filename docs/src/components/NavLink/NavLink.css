@@ -1,0 +1,13 @@
+:root {
+    --navlink-color: #166edc;
+    --navlink-bg-hover: #c4c4c4aa;
+}
+
+a.navlink__docs {
+    color: var(--navlink-color);
+    text-decoration: none;
+}
+
+a.navlink__docs:hover {
+    background: var(--navlink-bg-hover);
+}
