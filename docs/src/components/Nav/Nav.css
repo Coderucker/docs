@@ -1,10 +1,10 @@
 :root {
-    --navbar-height: 60px;
+    --navbar-height: 55px;
     --navbar-width: 100vw;
     --navbar-display: flex;
     --navbar-flex-direction: row;
     --navbar-align: center;
-    --navbar-justify: space-around;
+    --navbar-justify: center;
 }
 
 nav.navbar__docs {
