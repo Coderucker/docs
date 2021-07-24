@@ -2,31 +2,21 @@
   --header-display: flex;
   --header-align: center;
   --header-justify: center;
-  --header_height: 20px;
-  --header_width: 100px;
-  --header-background: #166edc;
-  --header-background-hover: #166edcaa;
-  --header-color: #fff;
-  --header-padding: 1rem 1.5rem;
-  --header-margin: 1rem 1.2rem;
-  --header-corner-radius: 5px;
+  --header-color: rgb(36, 36, 36);
   --header-font-size: calc(10px + 2vmin);
+  --header-font-weight: bold;
+  --header-margin: 1.5rem 1.5rem;
 }
 
 header.header__docs {
-  display: var(--button-display);
-  align-items: var(--button-align);
-  justify-content: var(--button-justify);
-  height: var(--button_height);
-  width: var(--button_width);
-  background: var(--button-background);
-  color: var(--button-color);
+  display: var(--header-display);
+  align-items: var(--header-align);
+  justify-content: var(--header-justify);
+  color: var(--header-color);
+  font-size: var(--header-font-size);
+  font-weight: var(--header-font-weight);
+  margin: var(--header-margin);
   border: none;
   outline: none;
-  padding: var(--button-padding);
-  margin: var(--button-margin);
-  border-radius: var(--button-corner-radius);
-  cursor: pointer;
   transition: 0.15s;
-  font-size: var(--header-font-size);
 }
