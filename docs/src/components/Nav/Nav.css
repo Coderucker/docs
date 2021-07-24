@@ -1,7 +1,8 @@
 :root {
-    --navbar-height: 80px;
+    --navbar-height: 60px;
     --navbar-width: 100vw;
     --navbar-display: flex;
+    --navbar-flex-direction: row;
     --navbar-align: center;
     --navbar-justify: space-around;
 }
@@ -9,6 +10,8 @@
 nav.navbar__docs {
     height: var(--navbar-height);
     width: var(--navbar-width);
+    display: var(--navbar-display);
+    flex-direction: var(--navbar-flex-direction);
     align-items: var(--navbar-align);
     justify-content: var(--navbar-justify);
     background: rgba(255, 255, 255, 0.3);
