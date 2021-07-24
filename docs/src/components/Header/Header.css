@@ -1,17 +1,11 @@
 :root {
-  --header-display: flex;
-  --header-align: center;
-  --header-justify: center;
   --header-color: rgb(36, 36, 36);
   --header-font-size: calc(10px + 2vmin);
   --header-font-weight: bold;
-  --header-margin: 1.5rem 1.5rem;
+  --header-margin: 1rem;
 }
 
 header.header__docs {
-  display: var(--header-display);
-  align-items: var(--header-align);
-  justify-content: var(--header-justify);
   color: var(--header-color);
   font-size: var(--header-font-size);
   font-weight: var(--header-font-weight);
