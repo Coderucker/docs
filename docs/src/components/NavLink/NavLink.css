@@ -4,7 +4,7 @@
     --navlink-padding: 2px;
     --navlink-font-size: calc(10px + 1.5vmin);
     --navlink-border-radius: 10px;
-    --navlink-bg-hover: #c4c4c4aa;
+    --navlink-bg-hover: #e4e4e4aa;
     --navlink-transition: 0.15s;
 }
 
@@ -16,6 +16,7 @@ a.navlink__docs {
     border-radius: var(--navlink-border-radius);
     text-decoration: none;
     transition: var(--navlink-transition);
+    cursor: pointer;
 }
 
 a.navlink__docs:hover {
