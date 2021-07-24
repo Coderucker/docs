@@ -8,6 +8,10 @@
   font-family: var(--web-font);
 }
 
+*::selection {
+  background: #6897cfaa;
+}
+
 body {
   margin: 0;
   font-family: var(--web-font);
