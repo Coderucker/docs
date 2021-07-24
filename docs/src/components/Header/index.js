@@ -11,7 +11,7 @@ class Header extends Component {
     }
     render() {
         return (
-            <header className="header__docs">
+            <header className="header__docs" {...this.props}>
                 {this.props.text}
                 {this.props.children}
             </header>
