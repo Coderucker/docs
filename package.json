@@ -1,0 +1,23 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Documentation for AmberBuild",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "cd docs && npm run build",
+    "start": "cd docs && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmberBuild/docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmberBuild/docs/issues"
+  },
+  "homepage": "https://github.com/AmberBuild/docs#readme"
+}
