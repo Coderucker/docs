@@ -14,6 +14,7 @@ class Button extends Component {
         return (
             <button className="btn__docs" {...this.props}>
                 {this.props.text}
+                {this.props.children}
             </button>
         );
     }
