@@ -12,7 +12,7 @@ class Nav extends Component {
 
     render() {
         return (
-            <nav className="navbar__docs" {...this.props}>
+            <nav className={`navbar__docs ${this.props.animate ? "with-anim" : "no-anim"}`} {...this.props}>
                 {this.props.children}
             </nav>
         );

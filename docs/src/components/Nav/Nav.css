@@ -17,3 +17,21 @@ nav.navbar__docs {
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(24px);
 }
+
+nav.navbar__docs.with-anim {
+    animation: slide-in 1s ease-in-out;
+}
+
+/*
+    Slide in Animation for .with-anim class
+*/
+
+@keyframes slide-in {
+    from {
+        transform: translateY(-180px);
+    }
+
+    to {
+        transition: translateY(0);
+    }
+}
