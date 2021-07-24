@@ -1,21 +1,11 @@
 :root {
-    --paragraph-display: flex;
-    --paragraph-align: center;
-    --paragraph-justify: center;
-    --paragraph-color: rgb(36, 36, 36);
     --paragraph-font-size: calc(10px + 1vmin);
     --paragraph-font-weight: bold;
-    --paragraph-margin: 1.5rem 1.5rem;
   }
   
   p.paragraph__docs {
-    display: var(--paragraph-display);
-    align-items: var(--paragraph-align);
-    justify-content: var(--paragraph-justify);
-    color: var(--paragraph-color);
     font-size: var(--paragraph-font-size);
     font-weight: var(--paragraph-font-weight);
-    margin: var(--paragraph-margin);
     border: none;
     outline: none;
     transition: 0.15s;

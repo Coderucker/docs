@@ -1,5 +1,5 @@
 import { Component } from "react";
-import './Header.css';
+import './Paragraph.css';
 
 /**
  * Paragraph Component for AmberBuild Docs
@@ -11,7 +11,7 @@ class Paragraph extends Component {
     }
     render() {
         return (
-            <p className="paragraph__docs">
+            <p className="paragraph__docs" {...this.props}>
                 {this.props.text}
                 {this.props.children}
             </p>
