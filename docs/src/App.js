@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+// COMPONENTS
+import Button from "./components/Button/index";
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+      <Button onClick={() => console.log(document)} text="Hello" />
       </header>
     </div>
   );
