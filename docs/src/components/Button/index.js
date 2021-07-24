@@ -1,6 +1,9 @@
 import { Component } from "react";
 import './Button.css';
 
+/**
+ * Button Component for AmberBuild Docs
+ */
 class Button extends Component {
     constructor(props) {
         super(props);

@@ -2,24 +2,27 @@
     --button-display: flex;
     --button-align: center;
     --button-justify: center;
-    --button_height: 20px;
-    --button_width: 100px;
+    --button_min_height: 20px;
+    --button_min_width: 100px;
     --button-background: #166edc;
-    --button-background-hover: #166edcaa;
+    --button-background-hover: #1e79e9;
     --button-color: #fff;
+    --button-font-size: 15px;
     --button-padding: 1rem 1.5rem;
     --button-margin: 1rem 1.2rem;
     --button-corner-radius: 5px;
+    --button-active-scale: 0.98;
 }
 
 button.btn__docs {
     display: var(--button-display);
     align-items: var(--button-align);
     justify-content: var(--button-justify);
-    height: var(--button_height);
-    width: var(--button_width);
+    min-height: var(--button_min_height);
+    min-width: var(--button_min_width);
     background: var(--button-background);
     color: var(--button-color);
+    font-size: var(--button-font-size);
     border: none;
     outline: none;
     padding: var(--button-padding);
@@ -31,4 +34,8 @@ button.btn__docs {
 
 button.btn__docs:hover {
     background: var(--button-background-hover);
+}
+
+button.btn__docs:active {
+    transform: scale(var(--button-active-scale));
 }
