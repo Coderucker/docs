@@ -1,39 +1,58 @@
 :root {
-    --button-display: flex;
-    --button-align: center;
-    --button-justify: center;
-    --button_min_height: 20px;
-    --button_min_width: 100px;
-    --button-background: #166edc;
-    --button-background-hover: #1e79e9;
-    --button-color: #fff;
-    --button-font-size: 15px;
-    --button-padding: 0.7rem 1.4rem;
-    --button-corner-radius: 5px;
-    --button-active-scale: 0.98;
+  --button-display: flex;
+  --button-align: center;
+  --button-justify: center;
+  --button_min_height: 20px;
+  --button_min_width: 100px;
+  --button-background: #166edc;
+  --button-background-hover: #1e79e9;
+  --button-color: #fff;
+  --button-font-size: 15px;
+  --button-font-weight: 600;
+  --button-padding: 0.7rem 1.4rem;
+  --button-corner-radius: 5px;
+  --button-active-scale: 0.98;
+  --button-sec-bg: #fff;
+  --button-sec-color: #166edc;
+  --button-sec-font-weight: 600;
+  --button-sec-box-shadow: 2px 5px 15px 0 #c4c4c490;
+  --button-sec-hover-bg: #fafafa;
 }
 
 button.btn__docs {
-    display: var(--button-display);
-    align-items: var(--button-align);
-    justify-content: var(--button-justify);
-    min-height: var(--button_min_height);
-    min-width: var(--button_min_width);
-    background: var(--button-background);
-    color: var(--button-color);
-    font-size: var(--button-font-size);
-    border: none;
-    outline: none;
-    padding: var(--button-padding);
-    border-radius: var(--button-corner-radius);
-    cursor: pointer;
-    transition: 0.15s;
+  display: var(--button-display);
+  align-items: var(--button-align);
+  justify-content: var(--button-justify);
+  min-height: var(--button_min_height);
+  min-width: var(--button_min_width);
+  background: var(--button-background);
+  color: var(--button-color);
+  font-size: var(--button-font-size);
+  font-weight: var(--button-font-weight);
+  border: none;
+  outline: none;
+  padding: var(--button-padding);
+  border-radius: var(--button-corner-radius);
+  cursor: pointer;
+  transition: 0.15s;
 }
 
 button.btn__docs:hover {
-    background: var(--button-background-hover);
+  background: var(--button-background-hover);
 }
 
 button.btn__docs:active {
-    transform: scale(var(--button-active-scale));
+  transform: scale(var(--button-active-scale));
+}
+
+/* Secondary Button */
+button.btn__docs.sec {
+  background: var(--button-sec-bg);
+  color: var(--button-sec-color);
+  font-weight: var(--button-sec-font-weight);
+  box-shadow: var(--button-sec-box-shadow);
+}
+
+button.btn__docs.sec:hover {
+  background: var(--button-sec-hover-bg);
 }
