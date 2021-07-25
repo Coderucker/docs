@@ -1,5 +1,5 @@
 :root {
-    --navbar-height: 55px;
+    --navbar-height: 60px;
     --navbar-width: 100vw;
     --navbar-display: flex;
     --navbar-flex-direction: row;
@@ -14,8 +14,8 @@ nav.navbar__docs {
     flex-direction: var(--navbar-flex-direction);
     align-items: var(--navbar-align);
     justify-content: var(--navbar-justify);
-    background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(24px);
+    transition: 0.15s;
 }
 
 nav.navbar__docs.with-anim {
