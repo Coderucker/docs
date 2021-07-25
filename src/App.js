@@ -1,5 +1,3 @@
-import { useState } from "react";
-import logo from "./assets/logo/amber-build-icon.png";
 import "./App.css";
 
 // UI
