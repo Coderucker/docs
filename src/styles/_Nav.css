@@ -1,0 +1,5 @@
+@media only screen and (max-width: 556px) {
+    div.supportive-links__docs {
+        display: none;
+    }
+}
