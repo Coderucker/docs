@@ -4,7 +4,7 @@
     --navbar-display: flex;
     --navbar-flex-direction: row;
     --navbar-align: center;
-    --navbar-justify: center;
+    --navbar-justify: space-around;
 }
 
 nav.navbar__docs {

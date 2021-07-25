@@ -10,9 +10,7 @@ const _Nav = () => {
     return (
     <Nav style={{
         position: "fixed",
-        top: 0,
-        padding: 10,
-        justifyContent: "space-around"
+        top: 0
       }} animate="true">
         <div style={{
           display: "flex",
@@ -21,7 +19,10 @@ const _Nav = () => {
           alignItems: "center",
           justifyContent: "space-around"
         }}>
-          <img height={50} src={logo} alt="Logo for App" />
+          <img 
+            height={50} 
+            src={logo} 
+            alt="Logo for App" />
           <Header text="AmberBuild"/>
         </div>
         <div style={{
