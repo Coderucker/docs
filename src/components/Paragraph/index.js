@@ -1,5 +1,5 @@
 import { Component } from "react";
-import './Paragraph.css';
+import './Paragraph.scss';
 
 /**
  * Paragraph Component for AmberBuild Docs

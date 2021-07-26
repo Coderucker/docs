@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./NavLink.css";
+import "./NavLink.scss";
 
 /**
  * NavLink component AmberBuild Docs

@@ -1,5 +1,5 @@
 import { Component } from "react";
-import './Button.css';
+import './Button.scss';
 
 /**
  * Button Component for AmberBuild Docs

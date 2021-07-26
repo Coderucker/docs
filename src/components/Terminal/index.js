@@ -1,5 +1,5 @@
 import { Component } from "react";
-import './Terminal.css';
+import './Terminal.scss';
 
 /**
  * Terminal Class that represents a showcase terminal for AmberBuild Docs

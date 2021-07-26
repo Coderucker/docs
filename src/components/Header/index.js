@@ -1,5 +1,5 @@
 import { Component } from "react";
-import './Header.css';
+import './Header.scss';
 
 /**
  * Header Component for AmberBuild Docs
