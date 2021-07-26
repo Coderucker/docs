@@ -9,7 +9,8 @@
 }
 
 *::selection {
-  background: #6897cfaa;
+  background: #F758FA;
+  color: #fff;
 }
 
 body {
@@ -22,4 +23,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Remove text-underline from links */
+a {
+  text-decoration: none;
 }
