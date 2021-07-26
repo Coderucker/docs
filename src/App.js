@@ -1,15 +1,23 @@
-import "./App.css";
+import { 
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
 
-// UI
-import NavBarUI from "./ui/_Nav";
-import Landing from "./ui/Landing";
+import "./App.scss";
 
+// PAGES
+import HomePage from "./pages/Home";
+
+/**
+ * Default App Component
+ */
 function App() {
   return (
-    <div className="App">
-        <NavBarUI />
-        <Landing />
-    </div>
+    <Router>
+      <div className="App">
+          <Route path="/" component={HomePage} />
+      </div>
+    </Router>
   );
 }
 
