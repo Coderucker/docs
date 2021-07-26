@@ -1,6 +1,7 @@
 import Button from "../components/Button";
 import Header from "../components/Header";
 import Paragraph from "../components/Paragraph";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
     return (
@@ -13,7 +14,7 @@ const Landing = () => {
         }}>
             <Header className="header__docs no-margin" style={{
                 fontSize: "200%",
-                fontWeight: 900,
+                fontWeight: 800,
                 textShadow: "2px 10px 35px #c4c4c4aa"
             }}>
                 Tired of Building and Executing Your Code
@@ -32,12 +33,14 @@ const Landing = () => {
                 justifyContent: "space-between",
                 maxWidth: "250px"
             }}>
-                <Button style={{
-                    fontWeight: 600,
-                    boxShadow: "2px 5px 15px 0 #166edc60"
-                }}>
-                    Read the Docs
-                </Button>
+                <Link to="/docs">
+                    <Button style={{
+                        fontWeight: 600,
+                        boxShadow: "2px 5px 15px 0 #F758FA60"
+                    }}>
+                        Read the Docs
+                    </Button>
+                </Link>
                 <Button isSec={true}>
                     Try now
                 </Button>

@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./Nav.css";
+import "./Nav.scss";
 
 /**
  * NavBar component for AmberBuild Docs
