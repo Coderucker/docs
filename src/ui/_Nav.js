@@ -1,33 +1,19 @@
-import { useState } from "react";
 import Header from "../components/Header/index";
 import Nav from "../components/Nav";
 import NavLink from "../components/NavLink/index";
-import logo from "../assets/logo/amber-build-icon.png";
+import logo from "../assets/logo/amber-build-icon.svg";
 
 // STYLES
-import '../styles/_Nav.css';
+import '../styles/_Nav.scss';
 
 /**
  * Nav Bar UI Implemented Component
  */
 const _Nav = () => {
-    const [scroll, setScroll] = useState(false);
-
-    window.onscroll = (e) => {
-      if (window.pageYOffset >= 20) {
-        setScroll(true);
-      } else {
-        setScroll(false);
-      }
-
-      console.log(window.pageYOffset);
-    };
-
     return (
     <Nav style={{
         position: "fixed",
-        top: 0,
-        background: scroll ? "rgba(255, 255, 255, 0.7)" : "#fff"
+        top: 0
       }} animate="true">
         <div style={{
           display: "flex",
