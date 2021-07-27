@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import Button from "../components/Button";
 import Header from "../components/Header";
 import Paragraph from "../components/Paragraph";
@@ -36,14 +35,11 @@ const StarterDiv = styled.div`
 `;
 
 const Landing = () => {
-  let [count, setCount] = useState(0);
-  const data = ['Building', 'Coding', 'Failing'];
-
   return (
     <LanderMain>
       <Header
         className="header__docs no-margin main-header">
-        Tired of <ColorfulText>{data[count]}</ColorfulText> and Executing Your Code
+        Tired of <ColorfulText>Building</ColorfulText> and Executing Your Code
       </Header>
       <Paragraph
         style={{
