@@ -1,7 +1,7 @@
 import { Component } from "react";
 import styled from "styled-components";
 
-const _Header = styled.header`
+const HeaderStyle = styled.header`
     color: rgb(36, 36, 36);
     font-size: ${p => p.fontSize ? p.fontSize: "calc(54px - 1vmin)"};
     font-weight: 800;
@@ -22,10 +22,10 @@ class Header extends Component {
     }
     render() {
         return (
-            <_Header {...this.props}>
+            <HeaderStyle {...this.props}>
                 {this.props.text}
                 {this.props.children}
-            </_Header>
+            </HeaderStyle>
         );
     }
 }
