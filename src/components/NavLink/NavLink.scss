@@ -22,3 +22,9 @@ a.navlink__docs {
 a.navlink__docs:hover {
     background: var(--navlink-bg-hover);
 }
+
+a.navlink__docs.sec {
+    color: #717171;
+    font-size: 15px;/* Initial 14px */
+    padding: 8px;
+}

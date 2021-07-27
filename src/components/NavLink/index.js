@@ -12,7 +12,7 @@ class NavLink extends Component {
 
     render() {
         return (
-            <a className="navlink__docs" {...this.props}>
+            <a className={`navlink__docs ${this.props.issec ? "sec" : "primary"}`} {...this.props}>
                 {this.props.text}
                 {this.props.children}
             </a>
