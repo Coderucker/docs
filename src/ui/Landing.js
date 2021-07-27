@@ -13,18 +13,26 @@ const Landing = () => {
             paddingLeft: 40
         }}>
             <Header className="header__docs no-margin" style={{
-                fontSize: "200%",
+                fontSize: "calc(54px - 1vmin)",
                 fontWeight: 800,
-                textShadow: "2px 10px 35px #c4c4c4aa"
+                color: "#2C2C2C",
+                flex: "none",
+                order: 0,
+                flexGrow: 0,
+                textShadow: "2px 8px 8px rgba(0, 0, 0, 0.06);"
             }}>
                 Tired of Building and Executing Your Code
             </Header>   
             <Paragraph style={{
-                color: "#555",
-                fontSize: "75%"
+                color: "#959595",
+                fontSize: "75%",
+                fontWeight: 400,
+                width: "calc(579px - 30vmin)",
+                marginLeft: 4,
+                textShadow: "2px 8px 8px rgba(0, 0, 0, 0.09)"
             }}>
-                AmberBuild Automatically detects File Changes in your code and
-                build according to the task you specified.
+                AmberBuild will automatically build and execute your code. No matter what the languages and framerwork are!
+                This make’s you up-to-date about your code result.
             </Paragraph>
             <div style={{
                 display: "flex",
