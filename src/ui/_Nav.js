@@ -58,7 +58,7 @@ const _Nav = () => {
              fontSize: 14,
              padding: 8
            }}
-           text="About"/>
+           text="Playground"/>
         </div>
       </Nav>
     );
