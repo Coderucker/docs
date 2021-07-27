@@ -1,14 +1,26 @@
 .App {
   background-color: #F8F8F8;
   min-height: 100vh;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
 }
 
+
 /*
-  Local Classes for easy uses
+Local Classes for easy uses
 */
+
+/* Icon Styles */
+span.icon {
+  padding: 4px;
+  border-radius: 10px;
+}
+
+span.icon:hover {
+  background-color: #e4e4e4aa;
+}
 .no-margin {
   margin: 0;
 }
