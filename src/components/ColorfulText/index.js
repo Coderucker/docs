@@ -2,8 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const ColorfulTextStyle = styled.span`
-    background: linear-gradient(45deg, #F758FA, #72c, #456);
+    background-image: linear-gradient(45deg, #F758FA, #72c, #456);
     color: #fff;
+    background-clip: text;
 `;
 
 class ColorfulText extends React.Component {
