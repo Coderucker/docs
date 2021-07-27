@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const ColorfulTextStyle = styled.span`
     background-image: linear-gradient(45deg, #F758FA, #72c, #456);
-    color: #fff;
     background-clip: text;
 `;
 
