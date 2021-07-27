@@ -1,12 +1,15 @@
 :root {
-    --paragraph-font-size: calc(10px + 1vmin);
-    --paragraph-font-weight: bold;
-  }
-  
-  p.paragraph__docs {
-    font-size: var(--paragraph-font-size);
-    font-weight: var(--paragraph-font-weight);
-    border: none;
-    outline: none;
-    transition: 0.15s;
-  }
+  --paragraph-color: rgb(36, 36, 36);
+  --paragraph-font-size: calc(10px + 1vmin);
+  --paragraph-font-weight: bold;
+}
+
+p.paragraph__docs {
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  color: var(--paragraph-color);
+  line-height: 1.6rem;
+  border: none;
+  outline: none;
+  transition: 0.15s;
+}

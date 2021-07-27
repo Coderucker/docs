@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import Header from "../components/Header/index";
 import Nav from "../components/Nav";
 import NavLink from "../components/NavLink/index";
@@ -29,7 +27,7 @@ const _Nav = () => {
             marginBottom: "5px",
           }}
         />
-        <Header text="AmberBuild" />
+        <Header fontSize="100%" text="AmberBuild" />
       </div>
       <div className="supportive-links__docs">
         <NavLink issec="true" text="Documentation" />
