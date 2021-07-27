@@ -4,7 +4,9 @@ import Landing from "../ui/Landing";
 
 const HomePage = () => {
     return (
-        <div>
+        <div style={{
+            paddingBottom: 20
+        }}>
             <NavBarUI />
             <Landing />
         </div>
