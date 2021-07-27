@@ -2,8 +2,8 @@
   --button-display: flex;
   --button-align: center;
   --button-justify: center;
-  --button_max_height: 55px;
-  --button_max_width: 201px;
+  --button_min_height: 55px;
+  --button_min_width: 180px;
   --button-background: #F758FA;
   --button-background-hover: #cd53cf;
   --button-color: #fff;
@@ -23,8 +23,8 @@ button.btn__docs {
   display: var(--button-display);
   align-items: var(--button-align);
   justify-content: var(--button-justify);
-  max-height: var(--button_max_height);
-  max-width: var(--button_max_width);
+  min-height: var(--button_min_height);
+  min-width: var(--button_min_width);
   background: var(--button-background);
   color: var(--button-color);
   font-size: var(--button-font-size);
@@ -56,4 +56,10 @@ button.btn__docs.sec {
 
 button.btn__docs.sec:hover {
   background: var(--button-sec-hover-bg);
+}
+
+@media only screen and (max-width: 550px) {
+  button.btn__docs {
+    font-size: 85%;
+  }
 }
