@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const _ColorfulText = styled.span`
+const ColorfulTextStyle = styled.span`
     background: linear-gradient(45deg, #F758FA, #72c, #456);
     color: #fff;
 `;
@@ -14,9 +14,9 @@ class ColorfulText extends React.Component {
 
     render() {
         return (
-            <_ColorfulText>
+            <ColorfulTextStyle>
                 {this.props.children}
-            </_ColorfulText>
+            </ColorfulTextStyle>
         );
     }
 }
