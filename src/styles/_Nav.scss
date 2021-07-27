@@ -1,4 +1,25 @@
-@media only screen and (max-width: 556px) {
+div.nav__product-container {
+  display: flex;
+  height: 100%;
+  width: 15%;
+  align-items: center;
+}
+
+div.supportive-links__docs {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 576px) {
+    div.nav__product-container {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+
     div.supportive-links__docs {
         display: none;
     }

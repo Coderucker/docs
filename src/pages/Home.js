@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div style={{
             paddingBottom: 20
-        }}>
+         }}>
             <NavBarUI />
             <Landing />
         </div>

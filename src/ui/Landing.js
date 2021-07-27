@@ -3,16 +3,20 @@ import Header from "../components/Header";
 import Paragraph from "../components/Paragraph";
 import { Link } from "react-router-dom";
 
+// UI STYLES
+import '../styles/Landing.scss';
+
 const Landing = () => {
     return (
-        <div style={{
+        <main className="landing__main_hero" style={{
             display: "flex",
             flexDirection: "column",
             paddingTop: 150,
             width: "45%",
-            paddingLeft: 40
+            paddingLeft: 40,
+            flex: 1
         }}>
-            <Header className="header__docs no-margin" style={{
+            <Header className="header__docs no-margin main-header" style={{
                 fontSize: "calc(54px - 1vmin)",
                 fontWeight: 800,
                 color: "#2C2C2C",
@@ -27,7 +31,7 @@ const Landing = () => {
                 color: "#959595",
                 fontSize: "75%",
                 fontWeight: 400,
-                width: "calc(579px - 30vmin)",
+                width: "calc(579px - 35vmin)",
                 marginLeft: 4,
                 textShadow: "2px 8px 8px rgba(0, 0, 0, 0.09)"
             }}>
@@ -49,11 +53,11 @@ const Landing = () => {
                         Read the Docs
                     </Button>
                 </Link>
-                <Button isSec={true}>
-                    Try now
+                <Button issec="true">
+                    &gt; Try now
                 </Button>
             </div>
-        </div>
+        </main>
     );
 }
 

@@ -12,7 +12,7 @@ class Button extends Component {
 
     render() {
         return (
-            <button className={`btn__docs ${this.props.isSec ? "sec" : "no-sec"}`} {...this.props}>
+            <button className={`btn__docs ${this.props.issec ? "sec" : "primary"}`} {...this.props}>
                 {this.props.text}
                 {this.props.children}
             </button>
