@@ -39,14 +39,6 @@ const Landing = () => {
   let [count, setCount] = useState(0);
   const data = ['Building', 'Coding', 'Failing'];
 
-  setTimeout(() => {
-    if (count > 3) {
-      setCount(count +=1);
-    } else if (count == 3) {
-      setCount(0);
-    }
-  }, 100);
-
   return (
     <LanderMain>
       <Header
