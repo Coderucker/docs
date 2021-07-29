@@ -1,29 +1,34 @@
 @font-face {
   font-family: "Alliance Bold";
+  font-weight: 800;
   src: url("./assets/fonts/alliance/alliance-no-1-bold.woff");
 }
 
 @font-face {
   font-family: "Alliance Extra Bold";
+  font-weight: 900;
   src: url("./assets/fonts/alliance/alliance-no-1-extrabold.woff");
 }
 
 @font-face {
   font-family: "Alliance Medium";
+  font: 700;
   src: url("./assets/fonts/alliance/alliance-no-1-medium.woff");
 }
 
 @font-face {
   font-family: "Alliance Regular";
+  font-weight: 600;
   src: url("./assets/fonts/alliance/alliance-no-1-regular.woff");
 }
 
 @font-face {
   font-family: "Alliance";
+  font-weight: 600;
   src: url("./assets/fonts/alliance/alliance-no-1-regular.woff");
 }
 
-$web-font: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+$web-font: "Alliance", -apple-system, BlinkMacSystemFont, "Segoe UI",
   "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
   "Helvetica Neue", sans-serif;
 
