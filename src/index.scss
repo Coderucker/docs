@@ -1,11 +1,34 @@
-:root {
-  --web-font: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
+@font-face {
+  font-family: "Alliance Bold";
+  src: url("./assets/fonts/alliance/alliance-no-1-bold.woff");
 }
 
+@font-face {
+  font-family: "Alliance Extra Bold";
+  src: url("./assets/fonts/alliance/alliance-no-1-extrabold.woff");
+}
+
+@font-face {
+  font-family: "Alliance Medium";
+  src: url("./assets/fonts/alliance/alliance-no-1-medium.woff");
+}
+
+@font-face {
+  font-family: "Alliance Regular";
+  src: url("./assets/fonts/alliance/alliance-no-1-regular.woff");
+}
+
+@font-face {
+  font-family: "Alliance";
+  src: url("./assets/fonts/alliance/alliance-no-1-regular.woff");
+}
+
+$web-font: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+  "Helvetica Neue", sans-serif;
+
 * {
-  font-family: var(--web-font);
+  font-family: $web-font;
 }
 
 *::selection {
@@ -15,7 +38,7 @@
 
 body {
   margin: 0;
-  font-family: var(--web-font);
+  font-family: $web-font;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-width: 100vw;
