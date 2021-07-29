@@ -27,7 +27,7 @@ const _Nav = () => {
             marginBottom: "5px",
           }}
         />
-        <Header fontSize="100%" text="AmberBuild" />
+        <Header fontSize="100%" text="bitbuild" />
       </div>
       <div className="supportive-links__docs">
         <NavLink issec="true" text="Documentation" />

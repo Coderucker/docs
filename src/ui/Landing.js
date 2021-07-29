@@ -51,9 +51,9 @@ const Landing = () => {
           textShadow: "2px 8px 8px rgba(0, 0, 0, 0.09)",
         }}
       >
-        AmberBuild will automate your Build Tasks for you. No matter what the
+        bitbuild will automate your Build Tasks for you. No matter what the
         languages and framerwork are! It works cross-lang and runs across all
-        platforms. Just run <code>amberbuild</code> the build will be automated
+        platforms. Just run <code>bitbuild</code> the build will be automated
         every-time you make a change in your code.
       </Paragraph>
       <StarterDiv>

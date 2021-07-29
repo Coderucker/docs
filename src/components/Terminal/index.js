@@ -2,7 +2,7 @@ import { Component } from "react";
 import './Terminal.scss';
 
 /**
- * Terminal Class that represents a showcase terminal for AmberBuild Docs
+ * Terminal Class that represents a showcase terminal for bitbuild Docs
  */
 class Terminal extends Component {
     constructor(props) {
