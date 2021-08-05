@@ -1,7 +1,7 @@
 import Header from "../components/Header/index";
 import Nav from "../components/Nav";
 import NavLink from "../components/NavLink/index";
-import logo from "../assets/logo/amber-build-icon.svg";
+import logo from "../assets/logo/bit-build-icon.svg";
 
 // STYLES
 import "../styles/_Nav.scss";
