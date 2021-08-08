@@ -1,6 +1,6 @@
 {
-  "short_name": "AmberBuild App",
-  "name": "AmberBuild App",
+  "short_name": "bitbuild App",
+  "name": "bitbuild App",
   "icons": [
     {
       "src": "amber-build-icon.png",

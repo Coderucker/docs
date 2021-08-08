@@ -2,7 +2,7 @@ import { Component } from "react";
 import "./NavLink.scss";
 
 /**
- * NavLink component AmberBuild Docs
+ * NavLink component bitbuild Docs
  */
 class NavLink extends Component {
     constructor(props) {

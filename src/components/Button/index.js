@@ -2,7 +2,7 @@ import { Component } from "react";
 import './Button.scss';
 
 /**
- * Button Component for AmberBuild Docs
+ * Button Component for bitbuild Docs
  */
 class Button extends Component {
     constructor(props) {

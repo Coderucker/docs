@@ -2,7 +2,7 @@ import { Component } from "react";
 import './Paragraph.scss';
 
 /**
- * Paragraph Component for AmberBuild Docs
+ * Paragraph Component for bitbuild Docs
  */
 class Paragraph extends Component {
     constructor(props) {

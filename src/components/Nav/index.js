@@ -2,7 +2,7 @@ import { Component } from "react";
 import "./Nav.scss";
 
 /**
- * NavBar component for AmberBuild Docs
+ * NavBar component for bitbuild Docs
  */
 class Nav extends Component {
     constructor(props) {

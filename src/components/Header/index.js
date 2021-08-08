@@ -13,7 +13,7 @@ const HeaderStyle = styled.header`
 `;
 
 /**
- * Header Component for AmberBuild Docs
+ * Header Component for bitbuild Docs
  */
 class Header extends Component {
     constructor(props) {
