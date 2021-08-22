@@ -14,12 +14,14 @@ import NotFound from "./pages/NotFound";
  */
 function App() {
   return (
-    <div className="App">
-          <Router>
-            <Route path="/" component={HomePage} />
+    <Router>
+      <div className="App">
+        <Switch>
+            <Route exact path="/" component={HomePage} />
             <Route component={NotFound} />
-          </Router>
+        </Switch>
         </div>
+    </Router>
   );
 }
 
